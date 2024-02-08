@@ -1,0 +1,88 @@
+------ Insert sample roles
+----INSERT INTO role (name) VALUES ('ROLE_USER');
+----INSERT INTO role (name) VALUES ('ROLE_ADMIN');
+--
+--CREATE TABLE IF NOT EXISTS web_user (
+--    user_id BIGINT AUTO_INCREMENT PRIMARY KEY,
+--    username VARCHAR(255) NOT NULL,
+--    password VARCHAR(255) NOT NULL,
+--    full_name VARCHAR(255) NOT NULL,
+--    email VARCHAR(255) NOT NULL
+--);
+--
+--
+--INSERT INTO web_user (username, password, full_name, email) VALUES ('user1', 'password1', 'Alexandar', 'user1@example.com');
+--INSERT INTO web_user (username, password, full_name, email) VALUES ('admin1', 'adminPassword', 'Jon Snow', 'admin@example.com');
+--INSERT INTO web_user (username, password, full_name, email) VALUES ('user2', 'password1', 'Maria Sharapova', 'user1@example.com');
+--INSERT INTO web_user (username, password, full_name, email) VALUES ('admin2', 'adminPassword', 'Herald', 'admin@example.com');
+--INSERT INTO web_user (username, password, full_name, email) VALUES ('user3', 'password1', 'Ronaldo', 'user1@example.com');
+--INSERT INTO web_user (username, password, full_name, email) VALUES ('admin3', 'adminPassword', 'Messi', 'admin@example.com');
+--
+--CREATE TABLE IF NOT EXISTS category (
+--    category_id BIGINT AUTO_INCREMENT PRIMARY KEY,
+--    name VARCHAR(255) NOT NULL
+--);
+--
+---- Insert sample categories
+--INSERT INTO category (name) VALUES ('Technology');
+--INSERT INTO category (name) VALUES ('Science');
+--INSERT INTO category (name) VALUES ('Programming');
+--INSERT INTO category (name) VALUES ('Maths');
+--INSERT INTO category (name) VALUES ('Entertainment');
+--INSERT INTO category (name) VALUES ('News');
+--
+--CREATE TABLE IF NOT EXISTS posts (
+--    post_id BIGINT PRIMARY KEY AUTO_INCREMENT,
+--    title VARCHAR(255) NOT NULL,
+--    content TEXT NOT NULL,
+--    user_id BIGINT,
+--    createdAt DATETIME DEFAULT CURRENT_TIMESTAMP,
+--    category_id BIGINT,
+--    FOREIGN KEY (user_id) REFERENCES web_user(user_id),
+--    FOREIGN KEY (category_id) REFERENCES category(category_id)
+--);
+--
+--INSERT INTO posts (title, content, user_id, createdAt, category_id)
+--VALUES ('First Post', 'This is the content of the first post.', 1, {ts '2016-10-19 11:10:13.247'}, 1);
+--
+--INSERT INTO posts (title, content, user_id, createdAt, category_id)
+--VALUES ('Second Post', 'This is the content of the second post.', 6, {ts '2016-10-19 11:10:13.247'}, 2);
+--
+--INSERT INTO posts (title, content, user_id, createdAt, category_id)
+--VALUES ('Third Post', 'This is the content of the third post.', 2, {ts '2016-10-19 11:10:13.247'}, 1);
+--
+--INSERT INTO posts (title, content, user_id, createdAt, category_id)
+--VALUES ('Fourth Post', 'This is the content of the first post.', 4, {ts '2016-10-19 11:10:13.247'}, 3);
+--
+--INSERT INTO posts (title, content, user_id, createdAt, category_id)
+--VALUES ('Fifth Post', 'This is the content of the second post.', 1, {ts '2016-10-19 11:10:13.247'}, 2);
+--
+--INSERT INTO posts (title, content, user_id, createdAt, category_id)
+--VALUES ('Sizth Post', 'This is the content of the third post.', 5, {ts '2016-10-19 11:10:13.247'}, 5);
+--
+--INSERT INTO posts (title, content, user_id, createdAt, category_id)
+--VALUES ('SEventh Post', 'This is the content of the first post.', 3, {ts '2016-10-19 11:10:13.247'}, 1);
+--
+--INSERT INTO posts (title, content, user_id, createdAt, category_id)
+--VALUES ('Eight Post', 'This is the content of the second post.', 2, {ts '2016-10-19 11:10:13.247'}, 4);
+--
+--INSERT INTO posts (title, content, user_id, createdAt, category_id)
+--VALUES ('Ninth Post', 'This is the content of the third post.', 6, {ts '2016-10-19 11:10:13.247'}, 6);
+--
+--CREATE TABLE comments (
+--  comment_id BIGINT PRIMARY KEY AUTO_INCREMENT,
+--  content TEXT NOT NULL,
+--  post_id BIGINT NOT NULL,
+--  FOREIGN KEY (post_id) REFERENCES posts(post_id)
+--);
+--
+--
+--INSERT INTO comments (content, post_id) VALUES
+--  ('Sample comment 1', 1);
+--
+--INSERT INTO comments (content, post_id) VALUES
+--  ('Sample comment 2', 2);
+--
+--INSERT INTO comments (content, post_id) VALUES
+--  ('Sample comment 3', 1);
+--
