@@ -7,21 +7,16 @@ import Contact from './Components/Contact'
 import Footer from './Components/Footer'
 
 import './App.css'
+import Home from './Components/Home'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div className="container mx-auto px-4">
+     <div>
         <Header />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-        <Footer />
+        <Home />
     </div>
-    </>
   )
 }
 
