@@ -1,31 +1,20 @@
-import React from 'react';
+import React from 'react'
 
-function Contact() {
+const Contact = () => {
   return (
-    <section className="mt-8">
-      <h2 className="text-xl font-bold mb-4">Contact Me</h2>
-      <p className="text-gray-700">
-        Feel free to reach out to me using the following methods:
-      </p>
-      <ul className="list-none mt-4">
-        <li>
-          <a href="mailto:youremail@example.com" className="text-blue-500 hover:text-blue-700">
-            Email: youremail@example.com
-          </a>
-        </li>
-        <li className="mt-2">
-          <a href="https://www.linkedin.com/in/your-linkedin-profile/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
-            LinkedIn: your-linkedin-profile
-          </a>
-        </li>
-        {/* Add more contact methods as needed */}
-      </ul>
-      <p className="text-gray-700 mt-4">
-        You can also send me a message using the form below:
-      </p>
-      {/* Add a contact form here if desired (optional) */}
-    </section>
-  );
+    <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
+        <form method='POST' action="https://getform.io/f/pbmqewpb" className='flex flex-col max-w-[600px] w-full'>
+            <div className='pb-8'>
+                <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>
+                <p className='text-gray-300 py-4'>// Submit the form below or shoot me an email - shashankvrma@gmail.com</p>
+            </div>
+            <input className='bg-[#ccd6f6] p-2' type="text" placeholder='Name' name='name' />
+            <input className='my-4 p-2 bg-[#ccd6f6]' type="email" placeholder='Email' name='email' />
+            <textarea className='bg-[#ccd6f6] p-2' name="message" rows="10" placeholder='Message'></textarea>
+            <button className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
+        </form>
+    </div>
+  )
 }
 
-export default Contact;
+export default Contact
