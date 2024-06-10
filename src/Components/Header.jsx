@@ -11,13 +11,16 @@ import Logo from '../assets/logo.png';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import {Link} from 'react-scroll'
+import ConnectForm from './MyModal';
+import MyModal from './MyModal'
 
 const Header = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+  const [showModal, setShowModal] = useState(false);
 
   return (
-    <div className='fixed w-full h-[50px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#0a192f] bg-opacity-75 text-gray-300'>
       <div>
         <img src={Logo} alt='Logo Image' style={{ width: '100px' }} />
       </div>
@@ -25,30 +28,32 @@ const Header = () => {
     {/* Menu */}
     <div>
       <ul className='hidden md:flex'>
-      <li>
+      <li className='py-2 px-4'>
           <Link to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className='py-2 px-4'>
           <Link to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className='py-2 px-4'>
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li  className='py-2 px-4'>
           <Link to='work' smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li>
-          <Link to='contact' smooth={true} duration={500}>
-            Contact
-          </Link>
+        <li className='border-2 rounded-md py-2 px-4 hover:bg-white hover:text-black'>
+            {/* <button onClick={() => setIsModalOpen(true)}>
+              Let's Connect
+            </button> */}
+              <button onClick={() => setShowModal(true)}>Let's Connect</button>
+            <MyModal onClose={() => setShowModal(false)} visible={showModal} />
         </li>
       </ul>
     </div>
@@ -89,13 +94,19 @@ const Header = () => {
             Work
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl border-4 border-white-600'>
           {' '}
           <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-            Contact
+            Let's Connect
           </Link>
         </li>
       </ul>
+
+      {/* Connect Form
+      <Modal open={isModalOpen} onClose={() => setIsModalOpen(false)}>
+         <ConnectForm />
+          
+      </Modal> */}
 
      {/* Social Icons */}
      <ul className='hidden lg:flex fixed flex-col top-[35%] left-0'>
