@@ -13,6 +13,14 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import {Link} from 'react-scroll'
 import ConnectForm from './MyModal';
 import MyModal from './MyModal'
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "./ui/popover"
+import Contact from './Contact';
+import Popupbox from './Popupbox';
+
 
 const Header = () => {
   const [nav, setNav] = useState(false);
@@ -48,12 +56,14 @@ const Header = () => {
             Work
           </Link>
         </li>
-        <li className='border-2 rounded-md py-2 px-4 hover:bg-white hover:text-black'>
-            {/* <button onClick={() => setIsModalOpen(true)}>
-              Let's Connect
-            </button> */}
-              <button onClick={() => setShowModal(true)}>Let's Connect</button>
-            <MyModal onClose={() => setShowModal(false)} visible={showModal} />
+         <li className='py-1 px-2 text-xl text-white bg-gradient-to-r from-blue-500 to-blue-700 border-2 border-blue-700 
+         rounded-md shadow-md hover:shadow-lg transition-transform transform hover:scale-105 duration-300 ease-in-out'>
+          <Popover>
+          <PopoverTrigger>Let's Connect</PopoverTrigger>
+          <PopoverContent>
+              <h1><Popupbox/></h1>
+          </PopoverContent>
+          </Popover>
         </li>
       </ul>
     </div>
@@ -100,13 +110,15 @@ const Header = () => {
             Let's Connect
           </Link>
         </li>
+        {/* <li className='py-6 text-4xl border-4 border-white-600'>
+          <Popover>
+          <PopoverTrigger>Open</PopoverTrigger>
+          <PopoverContent>Place content for the popover here.</PopoverContent>
+          </Popover>
+        </li> */}
       </ul>
-
-      {/* Connect Form
-      <Modal open={isModalOpen} onClose={() => setIsModalOpen(false)}>
-         <ConnectForm />
-          
-      </Modal> */}
+      
+      
 
      {/* Social Icons */}
      <ul className='hidden lg:flex fixed flex-col top-[35%] left-0'>
