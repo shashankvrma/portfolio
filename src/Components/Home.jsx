@@ -49,7 +49,11 @@ const Home = () => {
         {/* TypeWriter Ends */}
 
         <p className="text-[#8892b0] max-w-[700px] py-4">
-          I specialize in Java, Spring Boot, React, MySQL ....
+          I am a skilled software engineer with a strong background in Java,
+          Spring Boot, ReactJS, and cloud technologies like AWS. I have
+          experience enhancing security, improving logging and monitoring, and
+          leading projects, and I am currently pursuing a Master's in Computer
+          Science at the University of North Texas.
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>
