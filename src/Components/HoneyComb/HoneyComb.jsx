@@ -15,7 +15,7 @@ const HoneyComb = () => {
       <li className="honeycomb-cell">
         <img
           className="honeycomb-cell_img"
-          src="src/assets/react.png"
+          src="https://raw.githubusercontent.com/shashankvrma/portfolio/main/src/assets/react.png"
           alt="React"
         />
         <div className="honeycomb-cell_title">React</div>
@@ -23,7 +23,7 @@ const HoneyComb = () => {
       <li className="honeycomb-cell">
         <img
           className="honeycomb-cell_img"
-          src="https://github.com/shashankvrma/portfolio/blob/main/src/assets/html.png"
+          src="https://raw.githubusercontent.com/shashankvrma/portfolio/main/src/assets/html.png"
           alt="html"
         />
         <div className="honeycomb-cell_title">HTML</div>
@@ -31,7 +31,7 @@ const HoneyComb = () => {
       <li className="honeycomb-cell">
         <img
           className="honeycomb-cell_img"
-          src="./public/aws.png"
+          src="https://raw.githubusercontent.com/shashankvrma/portfolio/main/src/assets/aws.png"
           alt="aws"
         />
         <div className="honeycomb-cell_title">AWS</div>
@@ -39,7 +39,7 @@ const HoneyComb = () => {
       <li className="honeycomb-cell">
         <img
           className="honeycomb-cell_img"
-          src="https://github.com/shashankvrma/portfolio/blob/main/src/assets/css.png"
+          src="https://raw.githubusercontent.com/shashankvrma/portfolio/main/src/assets/css.png"
           alt="css"
         />
         <div className="honeycomb-cell_title">CSS</div>
@@ -47,7 +47,7 @@ const HoneyComb = () => {
       <li className="honeycomb-cell">
         <img
           className="honeycomb-cell_img"
-          src="https://github.com/shashankvrma/portfolio/blob/main/src/assets/tailwind.png"
+          src="https://raw.githubusercontent.com/shashankvrma/portfolio/main/src/assets/tailwind.png"
           alt="Tailwind"
         />
         <div className="honeycomb-cell_title">Tailwind</div>
