@@ -31,7 +31,7 @@ const HoneyComb = () => {
       <li className="honeycomb-cell">
         <img
           className="honeycomb-cell_img"
-          src="https://github.com/shashankvrma/portfolio/blob/main/src/assets/aws.png"
+          src="./src/assets/aws.png"
           alt="aws"
         />
         <div className="honeycomb-cell_title">AWS</div>
