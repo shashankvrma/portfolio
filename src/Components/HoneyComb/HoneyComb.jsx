@@ -7,7 +7,7 @@ const HoneyComb = () => {
       <li className="honeycomb-cell">
         <img
           className="honeycomb-cell_img"
-          src="https://github.com/shashankvrma/portfolio/blob/main/src/assets/java.png"
+          src="https://raw.githubusercontent.com/shashankvrma/portfolio/main/src/assets/java.png"
           alt="JAVA"
         />
         <div className="honeycomb-cell_title">JAVA</div>
@@ -31,7 +31,7 @@ const HoneyComb = () => {
       <li className="honeycomb-cell">
         <img
           className="honeycomb-cell_img"
-          src="public/aws.png"
+          src="./public/aws.png"
           alt="aws"
         />
         <div className="honeycomb-cell_title">AWS</div>
