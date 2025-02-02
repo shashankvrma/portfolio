@@ -11,10 +11,9 @@ import Popupbox from "./Popupbox";
 const Header = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
-  const [showModal, setShowModal] = useState(false);
 
   return (
-    <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#0a192f] bg-opacity-75 text-gray-300">
+    <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#1c365d] bg-opacity-75 text-gray-300 z-50">
       <div>
         <img src={Logo} alt="Logo Image" style={{ width: "100px" }} />
       </div>
@@ -35,6 +34,11 @@ const Header = () => {
           <li className="py-2 px-4">
             <Link to="skills" smooth={true} duration={500}>
               Skills
+            </Link>
+          </li>
+          <li className="py-2 px-4">
+            <Link to="education" smooth={true} duration={500}>
+              Education
             </Link>
           </li>
           <li className="py-2 px-4">
@@ -94,18 +98,18 @@ const Header = () => {
             Work
           </Link>
         </li>
+        <li className="py-6 text-4xl">
+          {" "}
+          <Link onClick={handleClick} to="education" smooth={true} duration={500}>
+            Education
+          </Link>
+        </li>
         <li className="py-6 text-4xl border-4 border-white-600">
           {" "}
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Let's Connect
           </Link>
         </li>
-        {/* <li className='py-6 text-4xl border-4 border-white-600'>
-          <Popover>
-          <PopoverTrigger>Open</PopoverTrigger>
-          <PopoverContent>Place content for the popover here.</PopoverContent>
-          </Popover>
-        </li> */}
       </ul>
 
       {/* Social Icons */}

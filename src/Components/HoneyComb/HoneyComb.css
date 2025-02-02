@@ -21,8 +21,9 @@ body {
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0;
+  padding: 20px;
   transform: translateY(80px);
+  gap: 10px;
 }
 
 .honeycomb-cell {
@@ -139,7 +140,7 @@ body {
   }
 }
 
-@media (min-width: 550px) and (max-width: 825px) {
+@media (min-width: 500px) and (max-width: 800px) {
   .honeycomb-cell:nth-child(3n) {
     margin-left: calc(50% - 125%);
     margin-right: calc(50% -125%);
@@ -179,5 +180,6 @@ body {
   .honeycomb-Hidden:nth-child(7n + 9),
   .honeycomb-Hidden:nth-child(7n + 11) {
     display: block;
-  }
+  } 
 }
+
