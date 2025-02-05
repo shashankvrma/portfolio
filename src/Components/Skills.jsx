@@ -61,7 +61,7 @@ const Skills = () => {
           {skills.map((skill) => (
             <motion.div
               key={skill.name}
-              className="bg-orange-200 shadow-md rounded-lg p-4 flex flex-col items-center"
+              className="bg-orange-100 shadow-md rounded-lg p-4 flex flex-col items-center"
               whileHover={{ scale: 1.05 }}
               transition={{ type: 'spring', stiffness: 300 }}
             >

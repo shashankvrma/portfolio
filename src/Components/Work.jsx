@@ -1,5 +1,4 @@
 import React from 'react'
-import WorkImg from '../assets/projects/workImg.jpeg'
 import Project1 from '../assets/projects/project1.png'
 
 const Work = () => {
@@ -7,7 +6,7 @@ const Work = () => {
     <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
       <div className='max-w-[1000px] mx-auto flex flex-col p-4 justify-center w-full h-full'>
         <div className='pb-8'>
-          <p className='text-bold text-4xl inline border-b-4 border-pink-600 text-gray-300'>Work</p>
+          <p className='text-bold text-4xl inline border-b-4 border-pink-600 text-gray-300'>Projects</p>
           <p className='py-6'>Check out my recent work</p>
         </div>
 
