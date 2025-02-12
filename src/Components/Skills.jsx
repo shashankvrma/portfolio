@@ -25,7 +25,7 @@ const skills = [
     name: 'Github',
     level: 'Advanced',
     percentage: 80,
-    icon: 'https://raw.githubusercontent.com/shashankvrma/portfolio/main/src/assets/github.png',
+    icon: 'https://img.icons8.com/?size=100&id=62856&format=png&color=000000',
   },
   {
     name: 'HTML',
@@ -44,6 +44,24 @@ const skills = [
     level: 'Proficient',
     percentage: 70,
     icon: 'https://raw.githubusercontent.com/shashankvrma/portfolio/main/src/assets/mongo.png',
+  },
+  {
+    name: 'MySQL',
+    level: 'Proficient',
+    percentage: 80,
+    icon: 'https://img.icons8.com/?size=100&id=11625&format=png&color=000000',
+  },
+  {
+    name: 'Docker',
+    level: 'Proficient',
+    percentage: 80,
+    icon: 'https://img.icons8.com/?size=100&id=22813&format=png&color=000000',
+  },
+  {
+    name: 'AWS',
+    level: 'Proficient',
+    percentage: 70,
+    icon: 'https://img.icons8.com/?size=100&id=33039&format=png&color=000000',
   },
 
 ];

@@ -42,6 +42,11 @@ const Header = () => {
             </Link>
           </li>
           <li className="py-2 px-4">
+            <Link to="certificates" smooth={true} duration={500}>
+              Certifications
+            </Link>
+          </li>
+          <li className="py-2 px-4">
             <Link to="work" smooth={true} duration={500}>
               Projects
             </Link>
@@ -102,6 +107,12 @@ const Header = () => {
           {" "}
           <Link onClick={handleClick} to="education" smooth={true} duration={500}>
             Education
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          {" "}
+          <Link onClick={handleClick} to="certificates" smooth={true} duration={500}>
+            Certifications
           </Link>
         </li>
         <li className="py-6 text-4xl border-4 border-white-600">
