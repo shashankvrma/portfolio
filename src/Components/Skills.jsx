@@ -6,7 +6,13 @@ const skills = [
     name: 'Java',
     level: 'Expert',
     percentage: 90,
-    icon: 'https://raw.githubusercontent.com/shashankvrma/portfolio/main/src/assets/java.png',
+    icon: 'https://img.icons8.com/3d-fluency/94/java-coffee-cup-logo.png',
+  },
+  {
+    name: 'Spring Boot',
+    level: 'Expert',
+    percentage: 90,
+    icon: 'https://img.icons8.com/color/48/spring-logo.png',
   },
   {
     name: 'React',
@@ -21,10 +27,10 @@ const skills = [
     icon: 'https://raw.githubusercontent.com/shashankvrma/portfolio/main/src/assets/tailwind.png',
   },
   {
-    name: 'Github',
+    name: 'Git',
     level: 'Advanced',
     percentage: 80,
-    icon: 'https://img.icons8.com/?size=100&id=62856&format=png&color=000000',
+    icon: 'https://img.icons8.com/ios/50/git.png',
   },
   {
     name: 'HTML',
@@ -55,6 +61,12 @@ const skills = [
     level: 'Proficient',
     percentage: 80,
     icon: 'https://img.icons8.com/?size=100&id=22813&format=png&color=000000',
+  },
+  {
+    name: 'Kubernetes',
+    level: 'Proficient',
+    percentage: 80,
+    icon: 'https://img.icons8.com/color/48/kubernetes.png',
   },
   {
     name: 'AWS',

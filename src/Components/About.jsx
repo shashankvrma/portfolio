@@ -28,7 +28,7 @@ function About() {
               Computer Science from the Institute of Engineering and Rural
               Technology and am currently pursuing a Master's in Computer
               Science at the University of North Texas. I have led projects,
-              received a 5-star rating from my boss, and solved over 570
+              received a 5-star rating from my boss, and solved over 615
               LeetCode questions. My personal projects include an alumni blog
               application with JWT authentication.
             </p>
