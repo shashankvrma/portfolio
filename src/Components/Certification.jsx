@@ -3,6 +3,50 @@ import { motion } from "framer-motion";
 
 const certifications = [
   {
+    title: "Introduction to Software Engineering",
+    issuer: "IBM Coursera",
+    date: "Febraury 15, 2025",
+    logo: "https://img.icons8.com/ios/50/ibm.png",
+    link: "https://coursera.org/share/d1febf91739bee953b0b79479133cf60"
+  },
+  {
+    title: "Introduction to HTML, CSS, and JavaScript",
+    issuer: "IBM Coursera",
+    date: "Febraury 20, 2025",
+    logo: "https://img.icons8.com/ios/50/ibm.png",
+    link: "https://coursera.org/share/37959013f79570404a76c600454648c4"
+  },
+  {
+    title: "Getting Started with Git and GitHub",
+    issuer: "IBM Coursera",
+    date: "March 1, 2025",
+    logo: "https://img.icons8.com/ios/50/ibm.png",
+    link: "https://coursera.org/share/ace532db2959c5117e5dfd75ead0021f"
+  },
+  {
+    title: "JavaScript Programming Essentials",
+    issuer: "IBM Coursera",
+    date: "March 21, 2025",
+    logo: "https://img.icons8.com/ios/50/ibm.png",
+    link: "https://coursera.org/share/1f1bc916f2d02ae15adbc185cc4ab7ce"
+  },
+  {
+    title: "Developing Front-End Apps with React",
+    issuer: "IBM Coursera",
+    date: "April 13, 2025",
+    logo: "https://img.icons8.com/ios/50/ibm.png",
+    link: "https://coursera.org/share/03291d1ff65b56167274c65394fd277e"
+  },
+  {
+    title: "Get Started with Cloud Native, DevOps, Agile, and NoSQL",
+    issuer: "IBM Coursera",
+    date: "May 29, 2025",
+    logo: "https://img.icons8.com/ios/50/ibm.png",
+    link: "https://coursera.org/share/befd93ac2da43c96d9cd4a78d744fbdb"
+  },
+
+
+  {
     title: "Java 17",
     issuer: "Linkedin",
     date: "April 10, 2024",
