@@ -13,7 +13,7 @@ const Work = () => {
   {
     title: "AlmaMingle",
     description: "A platform for students to connect, and collaborate on Events, publish blogs and message each other.",
-    image: "src/assets/projects/project1.png",
+    image: "https://raw.githubusercontent.com/shashankvrma/portfolio/main/src/assets/projects/project1.png",
     link: "https://se-alma-mingle-18js.vercel.app/"
   },
   {
@@ -25,13 +25,13 @@ const Work = () => {
   {
     title: "Portfolio Website",
     description: "My personal portfolio built with React, Tailwind, and hosted on Github.",
-    image: "src/assets/portfolio.png",
+    image: "https://raw.githubusercontent.com/shashankvrma/portfolio/main/src/assets/portfolio.png",
     link: "https://shashankvrma.github.io/portfolio/"
   },
   {
     title: "Travel Bloom",
     description: "Travel recommendation website using Javascript, HTML, and CSS. and hosted on Github.",
-    image: "src/assets/TravelBloom.png",
+    image: "https://raw.githubusercontent.com/shashankvrma/portfolio/main/src/assets/TravelBloom.png",
     link: "https://shashankvrma.github.io/travel_recommendation/"
   }
 ];
