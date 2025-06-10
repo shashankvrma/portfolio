@@ -9,7 +9,7 @@ import Certification from "./Components/Certification";
 
 function App() {
   return (
-    <div classname="bg-[#0a192f]">
+    <div className="bg-[#0a192f]">
       <Header/>
       <Home />
       <About />
