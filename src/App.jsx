@@ -9,8 +9,8 @@ import Certification from "./Components/Certification";
 
 function App() {
   return (
-    <div className="bg-[#0a192f]">
-      <Header/>
+    <div className="bg-gradient-to-br from-slate-300 via-blue-400 to-blue-950 bg-fixed bg-cover bg-no-repeat min-h-screen">
+      <Header />
       <Home />
       <About />
       <Skills />
@@ -18,6 +18,7 @@ function App() {
       <Work />
       <Certification />
       <Contact />
+      {/* <Test /> */}
     </div>
   );
 }
