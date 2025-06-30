@@ -21,14 +21,16 @@ const Work = () => {
       title: "HabitFlow",
       description:
         "HabitFlow — a simple habit tracker to help build better routines. I built it using React, and deployed it on Netlify.",
-      image: "src/assets/habitflow.png",
+      image:
+        "https://raw.githubusercontent.com/shashankvrma/portfolio/main/src/assets/projects/habitflow.png",
       link: "https://chipper-profiterole-4f8cbd.netlify.app/",
     },
     {
       title: "RoomieHub",
       description:
         "Java-based app to assign tasks, rooms, and manage roommates with an admin dashboard.",
-      image: "src/assets/roomiehub.png",
+      image:
+        "https://raw.githubusercontent.com/shashankvrma/portfolio/main/src/assets/projects/roomiehub.png",
       link: "https://tourmaline-medovik-7c6136.netlify.app/",
     },
     {
